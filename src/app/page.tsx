@@ -32,7 +32,7 @@ export default function Home() {
             <div className="flex flex-col items-center sm:items-start justify-center max-w-[500px]">
               <div className="flex flex-col items-center sm:items-start gap-3 mb-4">
                 <img src="./images/logo.png" alt="" className="w-48" />
-                <h3 className="rounded-full bg-green-600 text-white text-center py-1 w-[172px] text-sm sm:text-lg sm:px-6 sm:py-2">Ao vivo e gratuito</h3>
+                <h3 className="rounded-full bg-green-600 text-white text-center py-1 w-[172px] sm:w-[218px] text-sm sm:text-lg sm:px-6 sm:py-2">Ao vivo e gratuito</h3>
               </div>
               <div className="flex flex-col gap-2">
                 <h1 className="text-xl text-center sm:text-left sm:text-[28px] font-bold line-mod">Descubra o melhor formato de conteúdo do Instagram para crescer com <span className="text-my">seguidores de ouro, <span className="underline">que compram de você</span></span></h1>
