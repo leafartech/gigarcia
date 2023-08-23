@@ -1,6 +1,6 @@
 import { ReactNode } from "react"
 
-interface SectionProps {
+type SectionProps = {
     children: ReactNode
 }
 
