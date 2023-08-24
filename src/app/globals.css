@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif!important;
+}
+.line-mod {
+    line-height: 34px
+}
+#_form_64E6B1D9D5539_._inline-style input[type="text"], #_form_64E6B1D9D5539_._inline-style input[type="date"] {
+    width: 100%!important;
+}
+#_form_64E6B1D9D5539_ > div._form-content > div._button-wrapper._inline-style {
+    margin-left: 0!important;
+    width: 426px;
+    margin-top: 8px!important
+}
+#_form_1_submit {
+    width: 100%!important;
+    font-size: 14px!important;
+}
+#_form_64E6B1D9D5539_ {
+    margin-top: 0!important;
+    padding-left: 0!important
+}
+@media (max-width: 425px) {
+    .line-mod {
+        line-height: 26px
+    }   
+    #_form_64E6B1D9D5539_ {
+        margin-top: 0!important;
+        padding-top: 0!important;
+        margin-top: -32px!important;
+    }
+    #_form_64E6B1D9D5539_ > div._form-content > div._button-wrapper._inline-style,
+    #_form_64E6B1D9D5539_ > div._form-content > div._form_element._x44272161._inline-style {
+        margin-top: 0!important;
+        padding-top: 0!important;
+        transform: translateY(-16px)
+    }
+}
